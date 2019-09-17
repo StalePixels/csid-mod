@@ -1,4 +1,4 @@
-/!/bin/sh
+#!/bin/sh
 
 # First, I need some stuff, trust me, I'm trust worthy...
 sudo /usr/bin/apt-get install libsdl-sound1.2-dev libsdl-sound1.2 build-essential
