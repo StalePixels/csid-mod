@@ -12,11 +12,12 @@ make
 # Now I need to put it into place, but you should still trust me...
 sudo cp build/csidl build/csid /usr/bin
 
+# THE DEMO
+curl https://zx.xalior.com/monty.sid /tmp/csid-mod/monty.sid
+csidl /tmp/csid-mod/monty
+
 #Clean up
 rm -rf /tmp/csid-mod
-
-# THE DEMO
-curl http://zx.xalior.com/monty.sid | csidl
 
 # and NEVER trust a shellscript from someone you don't trust, okay!
 echo DONE!
