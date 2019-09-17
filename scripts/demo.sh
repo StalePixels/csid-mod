@@ -13,8 +13,8 @@ make
 sudo cp build/csidl build/csid /usr/bin
 
 # THE DEMO
-curl https://zx.xalior.com/monty.sid /tmp/csid-mod/monty.sid
-csidl /tmp/csid-mod/monty
+curl https://zx.xalior.com/monty.sid >  /tmp/csid-mod/monty.sid
+csidl /tmp/csid-mod/monty.sid
 
 #Clean up
 rm -rf /tmp/csid-mod
